@@ -5,6 +5,7 @@ import ProductUpdate from '@/views/ProductUpdate.vue'
 import ProductDetail from '@/views/ProductDetail.vue'
 import SalesList from '@/views/SalesList.vue'
 import ImageInsert from '@/views/ImageInsert.vue'
+import LoginView from '@/views/LoginView.vue'
 
 const routes = [
   {
@@ -36,6 +37,11 @@ const routes = [
     path: '/image_insert',
     name: 'ImageInsert',
     component: ImageInsert
+  },
+  {
+    path: '/login',
+    name: 'LoginView',
+    component: LoginView
   },
 ]
 
